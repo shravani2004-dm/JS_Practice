@@ -1,0 +1,17 @@
+let score="33abc"; //string bcoz double inverted 
+//let score=Null; //Output is 0
+//let score=undefined //output is undefined
+//let score=true/false; //output is 1/0
+console.log(typeof score);
+let valueInNumber=Number(score);
+console.log(typeof valueInNumber );
+console.log( valueInNumber );//33abc is not number or string thats why it print NaN
+
+let isloggin=1;
+let booleanIsloggin=Boolean(isloggin);
+console.log(booleanIsloggin);//boolean is giving 1=>true 0=>false
+
+let strNumber=44;
+let stringStrNumber=String(strNumber);
+console.log(stringStrNumber);//string is giving number as a string but datatype is string only
+
